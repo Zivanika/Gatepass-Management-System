@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gatepasses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Visitor Gatepasses</h2>
+  <form id="gatepass-form">
+    <div>
+      <label for="visitorName">Visitor Name</label>
+      <input type="text" id="visitorName" name="visitorName">
+    </div>
+    <div>
+      <label for="dateOfVisit">Date of Visit</label>
+      <input type="date" id="dateOfVisit" name="dateOfVisit" required>
+    </div>
+    <div>
+      <label for="purpose">Purpose</label>
+      <input type="text" id="purpose" name="purpose" required>
+    </div>
+    <div>
+      <label for="designation">Designation</label>
+      <input type="text" id="designation" name="designation" required>
+    </div>
+    <div>
+      <label for="department">Department</label>
+      <input type="text" id="department" name="department" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="gatepasses-list"></div>
+  <script src="/gatepass.js"></script>
+</body>
+</html>
